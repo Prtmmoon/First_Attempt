@@ -4,12 +4,19 @@
 <head>
   <meta HTTP-EQUIV=CONTENT-TYPE CONTENT="text/html; charset=utf-8">
   <title>Slide 3</title>
+  <style>
+  #one img{
+    height: 50px;
+    width: 50px;
+  }
+  </style>
 </head>
 <body text="#F1DFDF" bgcolor="#6D2806" link="#7C85B1" vlink="#B13333" alink="#6FE089">
-<center>
-<a href="img0.html"><img src="first.png" border=0 alt="First page"></a> <a href="img1.html"><img src="left.png" border=0 alt="Back"></a> <a href="img3.html"><img src="right.png" border=0 alt="Continue"></a> <a href="img5.html"><img src="last.png" border=0 alt="Last page"></a> <a href="Samdani.html"><img src="home.png" border=0 alt="Overview"></a> <a href="text2.html"><img src="text.png" border=0 alt="Text"></a></center><br>
 <center><img onclick="playAudio()" src="img2.png" alt=""></center>
 <h2 align="center"><em>CLICK</em> on the picture to listen the sound</h2>
+<center id="one">
+<a href="img0.html"><img src="first.png" border=0 alt="First page"></a> <a href="img1.html"><img src="left.png" border=0 alt="Back"></a> <a href="img3.html"><img src="right.png" border=0 alt="Continue"></a> <a href="img5.html"><img src="last.png" border=0 alt="Last page"></a> <a href="Samdani.html"><img src="home.png" border=0 alt="Overview"></a> <a href="text2.html"><img src="text.png" border=0 alt="Text"></a></center><br>
+
 <audio id="myAudio">
   <source src="Hi-I-am-Saamdani-Wearing-red1591730406.mp3" type="audio/mpeg">
 </audio>
@@ -17,15 +24,15 @@
 
 
 <script>
-var x = document.getElementById("myAudio"); 
+var x = document.getElementById("myAudio");
 
-function playAudio() { 
-  x.play(); 
-} 
+function playAudio() {
+  x.play();
+}
 
-function pauseAudio() { 
-  x.pause(); 
-} 
+function pauseAudio() {
+  x.pause();
+}
 </script>
 </body>
 </html>
